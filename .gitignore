@@ -1,0 +1,19 @@
+# Machine-specific networking, credentials, and runtime data stay local.
+*.yaml
+*.yml
+.venv/
+.state/
+downloads/
+logs/
+__pycache__/
+*.pyc
+*.part
+*.aria2
+.download-tools/
+*.lock
+# Upstream source is downloaded and checksum-verified by build_aria2.sh.
+vendor/aria2-*/
+vendor/*.tar.*
+vendor/*.tmp
+bin/aria2c*
+bin/build-info.json
